@@ -1,14 +1,11 @@
-export class service {
-  static async getGif(conversion_rates) {
-    return fetch(`https://v6.exchangerate-api.com/v6/latest/search?q=${conversion_rates}&api_key=${} limit = 1`)
-      .then(function (response) {
-        if (!response.ok) {
-          throw Error(response.status);
-        }
-        return response.json();
-      })
-      .catch(function (error) {
-        return Error(error);
-      })
-  }
+export function getCurrency();
+
+const api_url = "https://v6.exchangerate-api.com/v6/5beb8f7b76cb87ab64732939/latest/USD"
+async function getCurrency() {
+  const response = await fetch(api_url);
+  const data = await response.json();
+  const { conversion_rates } = data;
 }
+
+getCurrency();
+
