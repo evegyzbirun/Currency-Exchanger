@@ -1,4 +1,9 @@
-
+import $ from 'jquery';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/styles.css';
+import { service } from './service';
+import jquery from 'jquery';
 
 //select country currency
 const select = document.querySelectorAll("select");
@@ -14,3 +19,4 @@ async function currency() {
 
 };
 currency();
+console.log(service);
