@@ -7,8 +7,13 @@ import { getCurrency } from './service';
 
 function inputAndConvert() {
   $('#inputYourCurrency').number();
+  $('.errors').text('');
+  $('.rate').text('')
+};
 
-}
+function displayAfterCovert() {
+  $('#outputYourCurrency').val();
+};
 
-
+function displayData(data)
 

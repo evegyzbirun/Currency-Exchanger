@@ -1,11 +1,15 @@
-export function getCurrency();
+export default class getCurrency {
+  static async getCurrency(firstCurrency, secondCurrency, inputAmount) {
+    try {
+      const response = await fetch(`https://v6.exchangerate-api.com/v6/5beb8f7b76cb87ab64732939/latest/${firstCurrency}/${secondCurrency}/${inputAmount}`)
 
-const api_url = "https://v6.exchangerate-api.com/v6/5beb8f7b76cb87ab64732939/latest/USD"
-async function getCurrency() {
-  const response = await fetch(api_url);
-  const data = await response.json();
-  const { conversion_rates } = data;
+      if (!response.ok) {
+        throw Error(response.statusText);
+      }
+      return response.json();
+    } catch (error) {
+      return error.message;
+    }
+  }
 }
-
-getCurrency();
 
