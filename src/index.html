@@ -11,17 +11,25 @@
 <body>
   <h2>Currency exchanger</h2>
   <div>
+    <label for="first">enter USA: </label>
     <input id="number" type="number" class="input">
     <select>
       <option value="currency"></option>
     </select>
   </div>
   <div>
+    <select for="selectCurrency">Conversion Currency:</select>
     <input id="output" type="number" class="input">
     <select name="currency" class="currency">
-      <option value="currency"></option>
+      <option value="AUD">Australian dollar</option>
+      <option value="DJF">Djiboutian franc</option>
+      <option value="EUR">Euro</option>
+      <option value="FKP">Falkland Islands Pound</option>
+      <option value="GEL">Georgian Lari</option>
     </select>
   </div>
+  <div class="errors"></div>
+  <div class="rate"></div>
 </body>
 
 </html>
