@@ -3,7 +3,9 @@
 ## Description
 
 #### The application converts one currency to another based of rates.
-* User will input his usa dollars "enter USA:" , next the user can pick another currency that needed. The application will sue API to get a rate between the usa dollar and the picked currency.   
+* User will input his usa dollars "enter USA:" , next the user can pick another currency that needed. The application will sue API to get a rate between the usa dollar and the picked currency.  
+
+#### The project link: https://github.com/evegyzbirun/Currency-Exchanger
 
 #### By Evgeny Zbirun
 
