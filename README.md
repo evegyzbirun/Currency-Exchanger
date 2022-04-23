@@ -1,30 +1,33 @@
-# (Application Name)
-
-#### (Brief Description of Application)
-
-#### By (Your Name Here)
-
-## Technologies Used
-
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+# Currency Exchanger
 
 ## Description
 
+#### The application converts one currency to another based of rates.
+* User will input his usa dollars "enter USA:" , next the user can pick another currency that needed. The application will sue API to get a rate between the usa dollar and the picked currency.   
+
+#### By Evgeny Zbirun
+
+## Technologies Used
+
+* VS Code
+* JavaScript
+* HTML
+* CSS
+* npm
+* API 
+
+
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+1. Clone from repository or download with the link.
+2. Make an account at https://www.exchangerate-api.com/ to get API key. 
+3. Make sure you have .env in .gitigrore file before running
+
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* none
 
 ## License
 
