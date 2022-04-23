@@ -21,10 +21,11 @@
 ## Setup/Installation Requirements
 
 1. Clone from repository or download with the link.
-2. Make an account at https://www.exchangerate-api.com/ to get API key. 
-3. Make sure you have .env in .gitigrore file before running
-
-
+2. Make an account at https://www.exchangerate-api.com/ to get API key.
+3. Add your key in Privet file .env
+4. Make sure you have .env in .gitigrore file before running.
+5. Use nmp install and nmp run build.
+6. Nmp start to see changes in real time.
 ## Known Bugs
 
 * none
@@ -32,3 +33,4 @@
 ## License
 
 ## Contact Information
+* Copyright(c) 2022 Evgeny Zbirun
